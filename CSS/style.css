@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  main {
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .input-div {
+    margin-bottom: 20px;
+  }
+  
+  #change-due p, #cash-drawer-display p {
+    margin: 5px 0;
+  }
+
+  
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+  
+  /* Body */
+  body {
+    font-family: "Roboto", Arial, Verdana, sans-serif;
+  }
+  
+
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+  }
+
+  .input-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px 0px 20px;
+    
+  }
+  
+  input {
+    font-family: inherit;
+    font-size: 15px;
+  }
+  
+  label {
+    font-size: 18px;
+  }
+  
+
+  button {
+    font-family: inherit;
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+    background-color: #aeb3ff;
+    color: #000000;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+
+  #price-screen {
+    font-size: 1.5rem;
+    background-color: #000000;
+    border: 10px solid #a5ffff;
+    color: #ffffff;
+    height: 50px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  
+  
+  
+  #cash-drawer-display {
+    background-color: #a5ffff;
+    color: #000000;
+    font-size: 1.1rem;
+    width: 55%;
+    height: 95%;
+    padding: 10px;
+  }
